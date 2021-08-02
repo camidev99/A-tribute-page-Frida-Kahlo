@@ -1,0 +1,22 @@
+:root {
+    /* Light mode palette colors  */
+    --white-color:#fffffe;
+    --pinky-color:#f13f75;
+    --babyBlue-color:#00b2e5;
+    --yellow-color:#f99c10;
+    --green-color:#17986a;
+    /* Dark mode palette colors  */
+    --dark-color:#0f0f0f;
+    --Dpinky-color:#f900bc;
+    --DbabyBlue-color:#14a298;
+    --Dyellow-color:#ee9419;
+    --red-color:#96112e;
+}
+
+
+body { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
