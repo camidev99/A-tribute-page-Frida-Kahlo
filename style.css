@@ -19,4 +19,159 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-image: url(./Assets/3596202.jpg);
 }
+
+.header{
+    background: rgba( 241, 63, 117, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17.0px );
+    -webkit-backdrop-filter: blur( 17.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.title{
+    font-size: 6em;
+    text-align: center;;
+    color: #fcedd8;
+    font-family: 'Style Script', cursive;
+    text-shadow: 5px 5px 0px #f13f75, 
+            10px 10px 0px  #f99c10,
+            15px 15px 0px #00b2e5
+            ;
+    margin-top: -1rem;
+}
+
+.subtitle{
+    margin-top: -4.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.main{
+    text-align: center;
+}
+
+.frida-vogue{
+    height: 65vh;
+    margin-top: 2rem;
+}
+
+
+.img-caption{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1rem;
+}
+
+.img-caption:hover{
+    transition: 3s;
+    background-color: var(--babyBlue-color);
+   
+}
+
+.life-main{
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 75vw;
+    padding: 1.7rem;
+}
+
+.life{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+.frida-yellow-flowers{
+    align-content: start;
+    height: 85vh;
+}
+
+.biography{
+    width: 50%;
+    font-size: 2em;
+    margin-left: 3rem;
+    font-weight: bolder;
+    background-color: #17986b6e;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.biography:hover{
+    transition: 3s;
+    background-color: rgba(170, 102, 0, 0.479);
+   
+}
+
+.title2{
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.art-main{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 75vw;
+    padding: 1.7rem;
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 2rem;
+}
+
+.art{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.frida-cyan{
+    height: 85vh;
+}
+
+
+
+.artist-biography{
+    font-size: 1.4em;
+    margin-left: 3rem;
+    font-weight: bolder;
+    margin-right: 2rem;
+    text-align: justify;
+    background-color:rgba(170, 102, 0, 0.479);
+    padding: 1rem;
+}
+
+.artist-biography:hover{
+    background-color:#17986b6e;
+    transition: 3s;
+}
+
+footer{
+    background-color: #17986a;
+    padding: 4rem;
+    margin-top: 3rem;
+}
+
+.link{
+    color: #f13f75;
+    text-decoration: none;
+}
+
+
